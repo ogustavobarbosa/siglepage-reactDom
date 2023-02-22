@@ -1,0 +1,18 @@
+.navegacao {
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.ativo{
+    text-decoration: underline;
+}
+
+
+@media (max-width: 744px) {
+    .navegacao {
+        height: 72px;
+    }
+}
